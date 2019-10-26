@@ -48,7 +48,7 @@ vi /etc/httpd/conf.d/phpMyAdmin.conf
      <RequireAny>
       # Require ip 127.0.0.1
       # Require ip ::1
-        Require granted all
+        Require all granted
      </RequireAny>
    </IfModule>
    <IfModule !mod_authz_core.c>
