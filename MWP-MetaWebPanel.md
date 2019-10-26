@@ -1,4 +1,6 @@
 # Server Configuration For Web Panel
+yum update
+
 # Install LAMP [Linux,Apache,MySql,Php]
 1. install Apache Web Server
 2. install Marya DB
