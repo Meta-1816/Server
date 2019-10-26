@@ -63,4 +63,17 @@ vi /etc/httpd/conf.d/phpMyAdmin.conf
 
 
 # 5. Install FtpServer
+yum install vsftpd
+
+systemctl start vsftpd
+
+systemctl enable vsftpd
+
+cp /etc/vsftpd/vsftpd.conf /etc/vsftpd/vsftpd.conf.backup
+
+vi /etc/vsftpd/vsftpd.conf
+
+
+
+
 
