@@ -11,8 +11,13 @@ systemctl start httpd
 
 systemctl enable httpd
 
-2. install Marya DB
-3. install MySql
-4. install Php
-5. Install PhpMyAdmin
-6. Install FtpServer
+# 2. install Marya DB
+
+# 3. install MySql
+
+# 4. install Php
+
+# 5. Install PhpMyAdmin
+
+# 6. Install FtpServer
+
